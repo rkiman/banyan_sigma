@@ -11,7 +11,7 @@ from astropy.table import Table #Reading astro-formatted tables
 import warnings #Raise user-defined Python warnings
 import pdb #Debugging
 from scipy.stats import describe #Useful for debugging
-from scipy.misc import logsumexp #Useful to sum logarithms in a numerically stable way
+from scipy.special import logsumexp #Useful to sum logarithms in a numerically stable way
 
 #A more user-friendly way to set break points
 stop = pdb.set_trace
